@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="resultadoP4.html" method="get" enctype="multipart/form-data"></form>
+        <label for="nombre">Nombre del Jugador:</label>
+        <input type="text" id="nombre" name="nombre" required> <br> <br>
+
+        <label for="posicion">posicion</label>
+        <select name="posicion" id="posicion">
+        <option value="Delantero">Delantero</option>
+        <option value="Medio Campista">Medio Campista</option>
+        <option value="Defensa">Defensa</option>
+        <option value="Portero">Portero</option>
+    </select> <br><br>
+    <label for="imagenes">Foto del Jugador</label>
+    <input type="file" name="foto" id="foto">
+    <input type="submit" value="enviar">
+</body>
+</html>
